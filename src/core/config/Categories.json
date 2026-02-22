@@ -568,7 +568,6 @@
     {
         "name": "Flow control",
         "ops": [
-            "Magic",
             "Fork",
             "Subsection",
             "Merge",
