@@ -12,6 +12,7 @@
 @import "./themes/_geocities.css";
 @import "./themes/_solarizedDark.css";
 @import "./themes/_solarizedLight.css";
+@import "./themes/_napoleon.css";
 
 /* Utilities */
 @import "./utils/_overrides.css";

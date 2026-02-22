@@ -1,0 +1,140 @@
+/**
+ * Napoleon CTF theme
+ *
+ * Dark navy/teal cyberpunk aesthetic matching the Napoleon CTF platform.
+ * Primary: #21b4ba (teal), Accent: #ead44d (gold), BG: #13242b (navy)
+ *
+ * @author watson0x90
+ * @license Apache-2.0
+ */
+
+:root.napoleon {
+    --primary-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif;
+    --primary-font-colour: #cff8fa;
+    --primary-font-size: 14px;
+    --primary-line-height: 20px;
+
+    --fixed-width-font-family: "Source Code Pro", "Consolas", "Monaco",
+        "Droid Sans Mono", monospace;
+    --fixed-width-font-colour: inherit;
+    --fixed-width-font-size: inherit;
+
+    --subtext-font-colour: #8fb8ba;
+    --subtext-font-size: 13px;
+
+    --primary-background-colour: #13242b;
+    --secondary-background-colour: #111e23;
+
+    --primary-border-colour: #2b3d43;
+    --secondary-border-colour: #1f3a42;
+
+    /* Pane titles — gold accent matching Napoleon dashboard section headings */
+    --title-colour: #ead44d;
+    --title-weight: bold;
+    --title-background-colour: #0e1a1f;
+
+    /* Top banner bar */
+    --banner-font-colour: #ead44d;
+    --banner-bg-colour: #0e1a1f;
+    --banner-url-colour: #21b4ba;
+
+    /* Category headings in operations sidebar */
+    --category-list-font-colour: #21b4ba;
+
+    /* Loading spinner */
+    --loader-background-colour: var(--secondary-border-colour);
+    --loader-outer-colour: #21b4ba;
+    --loader-middle-colour: #ead44d;
+    --loader-inner-colour: #5cf0f6;
+
+
+    /* Operation colours */
+    --op-list-operation-font-colour: #cff8fa;
+    --op-list-operation-bg-colour: #162a31;
+    --op-list-operation-border-colour: #2b3d43;
+
+    --rec-list-operation-font-colour: #cff8fa;
+    --rec-list-operation-bg-colour: #1a3038;
+    --rec-list-operation-border-colour: #2b3d43;
+
+    --selected-operation-font-color: #ead44d;
+    --selected-operation-bg-colour: #2a2a1e;
+    --selected-operation-border-colour: #544d20;
+
+    --breakpoint-font-colour: #ff6b6b;
+    --breakpoint-bg-colour: #2b1a1a;
+    --breakpoint-border-colour: #4a2020;
+
+    --disabled-font-colour: #4a6268;
+    --disabled-bg-colour: #162a31;
+    --disabled-border-colour: #2b3d43;
+
+    --fc-operation-font-colour: #5cf0f6;
+    --fc-operation-bg-colour: #142d32;
+    --fc-operation-border-colour: #2b3d43;
+
+    --fc-breakpoint-operation-font-colour: #ff6b6b;
+    --fc-breakpoint-operation-bg-colour: #2b1a1a;
+    --fc-breakpoint-operation-border-colour: #4a2020;
+
+
+    /* Operation arguments */
+    --op-title-font-weight: bold;
+    --arg-font-colour: #8fb8ba;
+    --arg-background: #162a31;
+    --arg-border-colour: #2b3d43;
+    --arg-disabled-background: #1f3a42;
+    --arg-label-colour: #21b4ba;
+
+
+    /* Operation buttons */
+    --disable-icon-colour: #4a6268;
+    --disable-icon-selected-colour: #f44336;
+    --breakpoint-icon-colour: #4a6268;
+    --breakpoint-icon-selected-colour: #f44336;
+
+
+    /* Buttons */
+    --btn-default-font-colour: #cff8fa;
+    --btn-default-bg-colour: #162a31;
+    --btn-default-border-colour: #2b3d43;
+
+    --btn-default-hover-font-colour: #cff8fa;
+    --btn-default-hover-bg-colour: #1f3a42;
+    --btn-default-hover-border-colour: #21b4ba;
+
+    /* Bake/success button — gold accent for primary CTAs */
+    --btn-success-font-colour: #111e23;
+    --btn-success-bg-colour: #ead44d;
+    --btn-success-border-colour: #d4be3a;
+
+    --btn-success-hover-font-colour: #111e23;
+    --btn-success-hover-bg-colour: #f0e06a;
+    --btn-success-hover-border-colour: #ead44d;
+
+
+    /* Highlighter colours */
+    --hl1: #21b4ba55;
+    --hl2: #ead44d55;
+    --hl3: #ff6b6b55;
+    --hl4: #5cf0f655;
+    --hl5: #a78bfa55;
+
+
+    /* Scrollbar */
+    --scrollbar-track: #111e23;
+    --scrollbar-thumb: #2b3d43;
+    --scrollbar-hover: #3a5158;
+
+
+    /* Misc. */
+    --drop-file-border-colour: #21b4ba;
+    --table-border-colour: #2b3d43;
+    --popover-background: #162a31;
+    --popover-border-colour: #2b3d43;
+    --code-background: #162a31;
+    --code-font-colour: #5cf0f6;
+    --input-highlight-colour: #ead44d;
+    --input-border-colour: #2b3d43;
+}

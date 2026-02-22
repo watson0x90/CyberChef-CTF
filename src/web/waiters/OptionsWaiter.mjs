@@ -178,7 +178,7 @@ class OptionsWaiter {
         const themeFromStorage = this.app?.options?.theme;
         let theme = themeFromStorage;
         if (!theme) {
-            theme = this.getPreferredColorScheme();
+            theme = "napoleon";
         }
         this.changeTheme(theme);
     }
